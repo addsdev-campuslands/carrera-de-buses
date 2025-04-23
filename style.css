@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 1rem;
+}
+#controls {
+  margin-bottom: 1rem;
+}
+#pista {
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+#pista img {
+  position: absolute;
+  width: 150px;
+  height: auto;
+}
+#bus1 {
+  top: 30px;
+  left: 0;
+}
+#bus2 {
+  top: 390px;
+  left: 0;
+}
+#estado {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
